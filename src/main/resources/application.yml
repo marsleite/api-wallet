@@ -5,6 +5,6 @@ spring:
       database: wnsql
   datasource:
     url: jdbc:postgresql://localhost:5432/wsql
-    username: postgres
-    password: password
+    username: ${username}
+    password: ${password}
     driver-class-name: org.postgresql.Driver
