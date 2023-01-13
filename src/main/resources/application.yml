@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: wnsql
+  datasource:
+    url: jdbc:postgresql://localhost:5432/wsql
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
